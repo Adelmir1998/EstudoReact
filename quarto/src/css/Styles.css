@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(175, 37, 37, 0.123);
+}
+.header img {
+  min-width: 130px;
+  max-width: 130px;
+  padding-right: 20px;
+}
+.header h1 {
+  width: 80vw;
+  text-align: center;
+}
+.header h2 {
+  width: 48vw;
+  text-align: right;
+}
+.container {
+  display: flex;
+  direction: row;
+}
+.container .mensagens {
+  width: 30vw;
+  padding: 20px;
+  margin: 5px;
+  height: 70vw;
+  background-color: rgb(240, 101, 101);
+}
+.container .conteudo {
+  width: 70vw;
+  padding: 20px;
+  margin: 1px;
+  height: 70vw;
+}
+.container .conteudo h2 {
+  font-size: 26pt;
+  font-weight: lighter;
+  font-family: "Lucida Sans";
+  text-align: center;
+  margin-bottom: 40px;
+}
+.itens div {
+  width: 30%;
+  padding: 30px;
+  height: 200px;
+  background-color: rgb(240, 101, 101);
+  box-shadow: 0px 0px 5px red;
+  margin: 10px;
+  cursor: pointer;
+  transition: ease 0.4s;
+  border-radius: 8px;
+}
+.itens div:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+}
+.itens {
+  display: flex;
+  flex-direction: row;
+}
+.itens h3 {
+  font-family: "Lucida Sans";
+  font-size: 15pt;
+}
+.itens .preco {
+  color: red;
+}
